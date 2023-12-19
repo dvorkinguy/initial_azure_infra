@@ -4,27 +4,21 @@ terraform.tfstate
 terraform.tfstate.backup
 terraform.tfplan
 
-# Ignore any compiled binaries or executables
 azurek8s
 
-# Ignore logs and output files
 *.log
 *.out
 
-# Ignore any files containing sensitive information or secrets
 *.secret
 *.key
 
-# Ignore system and temporary files
 Thumbs.db
 .DS_Store
 *.tmp
 *.bak
 
-# Ignore user-specific files
 .vscode/
 *.swp
 *.swo
 
-# Ignore files that are specific to your local environment or editor
 .terraformignore

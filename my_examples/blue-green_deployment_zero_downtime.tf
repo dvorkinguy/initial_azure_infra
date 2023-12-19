@@ -139,16 +139,3 @@ resource "aws_lb_listener" "http" {
 output "web_loadbalancer_url" {
   value = aws_lb.web.dns_name
 }
-
-/* 
-  "appId": "37ab68cd-ff77-445c-bd34-08f5ae5c4902",
-  "displayName": "terraform_principal",
-  "password": "kb~8Q~M-dFqpxleLOaIjK9HDi2QGhD7wEd4vZdnA",
-  "tenant": "88da9190-260a-440f-be1b-acc18d8c3ed2"
-
-export ARM_SUBSCRIPTION_ID="b101d60d-7d8c-49ad-ab37-f1102083c98b"
-export ARM_TENANT_ID="88da9190-260a-440f-be1b-acc18d8c3ed2"
-export ARM_CLIENT_ID="37ab68cd-ff77-445c-bd34-08f5ae5c4902"
-export ARM_CLIENT_SECRET="kb~8Q~M-dFqpxleLOaIjK9HDi2QGhD7wEd4vZdnA"
-
-*/
